@@ -1,4 +1,4 @@
-# Paper Title : Dual trustworthy mechanism for cross-domain multimodality classification
+# Paper Title : Dual trustworthy mechanism for cross-domain multi-modality classification
 ## Data Introduction：
 ######    1.id ： Student ID<br>
 ######    2.text ： University comments. Code is used to generate embeddings for text data using the MPNet (Masked and Permuted) model.<br> Here's an overview of what the code does:<br>It initializes the MPNet tokenizer and model using the 'microsoft/mpnet-base' pre-trained model.<br> It loops over each row in the dataset starting from the second row (index 1).<br> It retrieves the text data from the second column of the current row, tokenizes it, encodes it, and generates the embeddings using the MPNet model. The resulting embeddings are converted to a numpy array.<br>
