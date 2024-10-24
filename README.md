@@ -1,4 +1,7 @@
-# Paper Title: Dual trustworthy mechanism for cross-domain multi-modality classification
+# Paper: Dual trustworthy mechanism for illness classification with multi-modality data
+
+# News: This work has been accepted at the 2023 IEEE International Conference on Data Mining Workshops (ICDMW)!
+
 ## Data Introduction：
 ######    1. id： Student ID<br>
 ######    2. text： University comments. Code is used to generate embeddings for text data using the MPNet (Masked and Permuted) model.<br> Here's an overview of what the code does:<br>It initializes the MPNet tokenizer and model using the 'microsoft/mpnet-base' pre-trained model.<br> It loops over each row in the dataset starting from the second row (index 1).<br> It retrieves the text data from the second column of the current row, tokenizes it, encodes it, and generates the embeddings using the MPNet model. The resulting embeddings are converted to a numpy array.<br>
@@ -6,3 +9,17 @@
 ######    4. label: The grade is assessed by combining the scores of practical teachers and college students (Elo rating system is A, B, C)<br>
 ######    5. Structure: Merge textbook analysis, learning situation analysis, teaching objectives, teaching priorities, teaching methods, teaching tools,    teaching processes, and teaching reflections into a list format<br>
 ######    6. class： subject<br>
+
+# Citation
+
+```
+@inproceedings{wang2023dual,
+  title={Dual trustworthy mechanism for illness classification with multi-modality data},
+  author={Wang, Qing and Zhu, Jia and Pan, Changfan and Shi, Jianyang and Meng, Chaojun and Guo, Hanghui},
+  booktitle={2023 IEEE International Conference on Data Mining Workshops (ICDMW)},
+  pages={356--362},
+  year={2023},
+  organization={IEEE}
+}
+```
+
