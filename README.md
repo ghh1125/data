@@ -15,4 +15,4 @@
 ﻿
 ﻿
 ﻿
-### ﻿Due to the privacy involved in the original data, we process it using encoding and require the original data. Please contact us.
+### ﻿Due to the privacy involved in the original data, we process it using encoding.
